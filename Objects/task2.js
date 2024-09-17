@@ -1,7 +1,7 @@
 function cars(details){
 	
-	for (let index = 0; index <= details.length; index ++){
-		console.log(index, object[index])
+	for (let index in details){
+		console.log(index, details[index])
 	}
 	return details
 }
