@@ -1,3 +1,4 @@
+const { number } = require("yargs")
 
 function sumEveryTwoIndex(number){
   list =[]
@@ -20,5 +21,20 @@ function sumTwoIndex(number){
   }
   return newList
 }
+
+function sumTwoIndex2(){
+  let sum =0
+  let newList2 =[]
+  for(let num in number){
+    sum+=number[num]
+    number.slice(2)
+    newList2.push(number)
+    sum =0
+  }
+  return newList2
+}
+
+number = [2,3,4,5,6,7]
+
 
 module.exports = {sumEveryTwoIndex, sumTwoIndex}
