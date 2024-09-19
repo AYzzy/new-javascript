@@ -26,15 +26,15 @@ function sumTwoIndex2(){
   let sum =0
   let newList2 =[]
   for(let num in number){
-    sum+=number[num]
     number.slice(2)
-    newList2.push(number)
+    sum+=number[num]
+    newList2.push(sum)
     sum =0
   }
   return newList2
 }
 
-number = [2,3,4,5,6,7]
-
+numeric = [2,3,4,5,6,7]
+console.log(sumTwoIndex2(numeric))
 
 module.exports = {sumEveryTwoIndex, sumTwoIndex}

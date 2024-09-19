@@ -9,8 +9,6 @@ function calculate(num, callback){
 
 console.log(calculate(3,multiplyByTwo))
 
-
-
 function calculate(num, callback){
 	return callback(num)
 }

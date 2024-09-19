@@ -1,4 +1,6 @@
+const { default: expect } = require("expect");
 const {add,subtract,evenNumber} = require("./Sum.js");
+
 
 let numberOne = 2
 let numberTwo = 20
@@ -20,3 +22,4 @@ test("Return Number",()=>{
 	let result = evenNumber(number)
 	expect(result).toEqual([2,4,6])
 })
+
