@@ -29,3 +29,4 @@ test("map through an array of object",()=>{
   let expected = ["John", "Jane"]
   expect(result).toEqual(expected) 
 })
+

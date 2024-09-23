@@ -54,4 +54,5 @@ let getName = (array)=>{
   return array.map((obj)=>obj.name)
 }
 
+
 module.exports = {evenNumbers,getFriutLength,multiplyByTwo,getName}
